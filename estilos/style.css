@@ -25,6 +25,9 @@ h2{
     color: blueviolet;
 }
 
+img.lado{
+    float: right;
+}
 
 a{
     text-decoration: none;
