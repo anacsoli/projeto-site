@@ -6,8 +6,11 @@
 }
 
 body{
-    background-color: rgb(159, 205, 243);
-
+    background-color: rgb(255, 255, 255);
+    background-image: url('imagens/logo.png'); /* Caminho da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
 }
 
 main{
@@ -19,12 +22,12 @@ main{
 
 h1{
     font-size: 2em;
-    color: blueviolet;
+    color: red;
 }
 
 h2{
     font-size: 1.5em;
-    color: blueviolet;
+    color: red;
     margin-top: 0; 
     margin-bottom:3px;
 }
@@ -32,11 +35,11 @@ h2{
 a{
     text-decoration: none;
     font-weight: bold;
-    color: rgb(226, 43, 43);
+    color:red;
 }
 
 a:hover{
     text-decoration: underline;
-    color: blue;
+    color: red;
 }
 
