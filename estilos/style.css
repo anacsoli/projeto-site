@@ -6,12 +6,12 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
-    background-image:url("imagens/logooo.png");
-    background-size: cover;
-    background-position: center;
-}
-
+    background-image: url('imagens/logo.png'); /* Caminho da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+  }
+  
 main{
     width: 500;
     margin:auto;
