@@ -6,12 +6,9 @@
 }
 
 body{
-    background-image: url('imagens/logo.png'); /* Caminho da imagem */
-    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição */
-  }
-  
+    background-color: rgb(255, 255, 255);
+}
+
 main{
     width: 500;
     margin:auto;
